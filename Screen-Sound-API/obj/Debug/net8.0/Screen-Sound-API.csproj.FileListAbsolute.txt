@@ -1,0 +1,15 @@
+C:\Users\User\Documents\code\C#\Screen-Sound-API\bin\Debug\net8.0\Screen-Sound-API.exe
+C:\Users\User\Documents\code\C#\Screen-Sound-API\bin\Debug\net8.0\Screen-Sound-API.deps.json
+C:\Users\User\Documents\code\C#\Screen-Sound-API\bin\Debug\net8.0\Screen-Sound-API.runtimeconfig.json
+C:\Users\User\Documents\code\C#\Screen-Sound-API\bin\Debug\net8.0\Screen-Sound-API.dll
+C:\Users\User\Documents\code\C#\Screen-Sound-API\bin\Debug\net8.0\Screen-Sound-API.pdb
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.AssemblyInfoInputs.cache
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.AssemblyInfo.cs
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.sourcelink.json
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.dll
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\refint\Screen-Sound-API.dll
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.pdb
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\Screen-Sound-API.genruntimeconfig.cache
+C:\Users\User\Documents\code\C#\Screen-Sound-API\obj\Debug\net8.0\ref\Screen-Sound-API.dll
