@@ -1,7 +1,7 @@
 ﻿
 using System.Text.Json.Serialization;
 
-namespace Screen_Sound_API.Modelos;
+namespace Screen_Sound_API.Models;
 
 internal class Song
 {
