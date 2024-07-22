@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Screen-Sound-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09664f9d510179d192756c0c9c9b6be9259334f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+204c5fd763fbabe681c2762af7dddf2d6e530b35")]
 [assembly: System.Reflection.AssemblyProductAttribute("Screen-Sound-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Screen-Sound-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
