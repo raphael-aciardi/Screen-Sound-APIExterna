@@ -10,7 +10,8 @@ using (HttpClient client = new HttpClient())
         var songs = JsonSerializer.Deserialize<List<Song>>(resposta)!;
         //LinqFilter.FilterMusicGenre(songs);
         //LinqOrder.DisplayOrderArtistList(songs);
-        LinqFilter.FilterArtistByMusicalGenre(songs, "Rock");
+        // LinqFilter.FilterArtistByMusicalGenre(songs, "Rock");
+        LinqFilter.FilterSongByArtist(songs, "U2");
 
     }
     catch (Exception ex) 
