@@ -11,8 +11,28 @@ using (HttpClient client = new HttpClient())
         //LinqFilter.FilterMusicGenre(songs);
         //LinqOrder.DisplayOrderArtistList(songs);
         // LinqFilter.FilterArtistByMusicalGenre(songs, "Rock");
-        LinqFilter.FilterSongByArtist(songs, "U2");
+        //LinqFilter.FilterSongByArtist(songs, "U2");
 
+        var raphaelsFavoriteSongs = new FavoriteSongs("Raphael");
+        var claudiosFavoriteSongs = new FavoriteSongs("Claudio");
+
+        raphaelsFavoriteSongs.AddFavoriteSongs(songs[1]);
+        raphaelsFavoriteSongs.AddFavoriteSongs(songs[4]);
+        raphaelsFavoriteSongs.AddFavoriteSongs(songs[3]);
+        raphaelsFavoriteSongs.AddFavoriteSongs(songs[123]);
+        raphaelsFavoriteSongs.AddFavoriteSongs(songs[137]);
+
+
+        raphaelsFavoriteSongs.DisplayFavoriteSongs();
+
+        //claudiosFavoriteSongs.AddFavoriteSongs(songs[1]);
+        //claudiosFavoriteSongs.AddFavoriteSongs(songs[4]);
+        //claudiosFavoriteSongs.AddFavoriteSongs(songs[3]);
+        //claudiosFavoriteSongs.AddFavoriteSongs(songs[123]);
+
+        //claudiosFavoriteSongs.DisplayFavoriteSongs();
+
+        raphaelsFavoriteSongs.CreateJson();
     }
     catch (Exception ex) 
     {
