@@ -36,4 +36,15 @@ internal class LinqFilter
         Console.WriteLine($"Artist Name: {artist}");
         foreach (var song in SongtByArtist) Console.WriteLine($"Musica: {song.Name}");
     }
+
+    public static void FilterByKey(List<Song> songs, int key)
+    {
+        var songsByKey = songs.Where(song => song.key.Equals(key)).ToList();
+        Console.WriteLine($"The songs with key {key} are: ");
+        foreach (var song in songsByKey)
+        {
+            song.ViewSongDetails();
+        }
+    }
+
 }

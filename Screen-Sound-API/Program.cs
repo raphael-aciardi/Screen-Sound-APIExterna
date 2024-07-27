@@ -1,4 +1,5 @@
-﻿using Screen_Sound_API.Models;
+﻿using Screen_Sound_API.Filters;
+using Screen_Sound_API.Models;
 using System.Text.Json;
 
 using (HttpClient client = new HttpClient())
@@ -38,11 +39,9 @@ using (HttpClient client = new HttpClient())
         raphaelsFavoriteSongs.CreateJson();
 
 
-        foreach (var song in songs)
-        {
-            song.ViewSongDetails();
-            Console.WriteLine("__________________________________-");
-        }
+        
+        LinqFilter.FilterByKey(songs, 0);
+       
     }
     catch (Exception ex)
     {

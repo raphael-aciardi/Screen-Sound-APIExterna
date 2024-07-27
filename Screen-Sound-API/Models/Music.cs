@@ -20,7 +20,7 @@ internal class Song
     [JsonPropertyName("key")]
     public int key { get; set; }
 
-    List<string> keysList = new List<string> {
+    public List<string> keysList = new List<string> {
     "C",
     "C#",
     "D",
@@ -45,3 +45,4 @@ internal class Song
     }
 
 }
+
